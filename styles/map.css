@@ -1,0 +1,57 @@
+body{
+  background-image: url('../resources/PICTURES/BACKGROUNDS/cave_background.png');
+  background-size: cover;
+  color: black;
+  font-family: 'Pirates', serif;
+  text-align: center;
+  margin: 0;
+}
+
+@font-face {
+  font-family: 'Pirates';
+  src: url('../resources/FONTS/Pirates.ttf') format('truetype');
+}
+
+h1{
+  color: black;
+  text-shadow: 2px 2px 2px white;
+  font-size: 40px;
+  margin: 36px;
+}
+
+p{
+  color: black;
+  text-shadow: 2px 2px 2px white;
+  font-size: 35px;
+  margin: 6px;
+}
+
+.map-images{
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(6, 170px);
+  grid-template-rows: repeat(3, auto);
+  margin-bottom: 20px;
+  margin-right: 230px;
+  margin-left: 230px;
+  box-shadow: 0 0 45px 20px goldenrod;
+}
+
+.map-images img{
+  width: 170px;
+  height: 190.4px;
+  height: auto;
+  object-fit: cover;
+}
+
+a{
+  text-shadow: 2px 2px 2px white;
+  text-align: center;
+  font-size: 28px;
+}
+
+img{
+  width: 100px;
+}
